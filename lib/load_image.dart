@@ -24,9 +24,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
           child:
-          Text(
-            'Hello World',
-          )
+          Image.asset("assets/hou-china-0830-2.jpg"),
       ),
     );
   }
