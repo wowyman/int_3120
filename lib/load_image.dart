@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
           child:
-          Image.asset("assets/hou-china-0830-2.jpg"),
+          Image.asset("assets/hou-china-0830-2.jpg"),//icon làm tương tự
       ),
     );
   }
