@@ -18,16 +18,17 @@ class MyHomePage extends StatelessWidget {
   final String title;
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(this.title),
+    return Container(
+        decoration: BoxDecoration(color: Colors.orange,),
+        padding: EdgeInsets.all(25), child: Center(
+      child:Text(
+        'Hello World', style: TextStyle(
+        color: Colors.red, letterSpacing: 0.5, fontSize: 30,
       ),
-      body: Center(
-          child:
-          Text(
-            'Hello World',
-          )
+        textDirection: TextDirection.ltr,
       ),
+    )
     );
+
   }
 }
