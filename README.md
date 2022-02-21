@@ -1,4 +1,4 @@
-# hello_app
+# file bài tập nằm trong /lib
 
 A new Flutter project.
 
