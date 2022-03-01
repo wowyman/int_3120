@@ -1,5 +1,5 @@
 # file bài tập nằm trong /lib
-Tuần 1 đã chạy code đến bài 12 (Animation)
+Tuần 1 đã chạy code đến bài 13(Animation)
 
 
 ## Getting Started
