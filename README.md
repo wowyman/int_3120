@@ -1,6 +1,5 @@
 # file bài tập nằm trong /lib
-
-A new Flutter project.
+Tuần 1 đã chạy code đến hết bài 13(Animation)
 
 ## Getting Started
 
