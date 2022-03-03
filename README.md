@@ -1,14 +1,14 @@
 # file bài tập nằm trong /lib
 Tuần 1 đã chạy code đến hết bài 13(Animation)
 
-<<<<<<< HEAD
+
 Bài 1,2: 
 Cài đặt Flutter, môi trường, IDE
 Bài 3:
 Ứng dụng HelloWorld
-=======
->>>>>>> origin/master
+![image](https://user-images.githubusercontent.com/62579415/156557319-1f37b500-a76e-49df-90c1-62bfffeb3791.png)
 
+=======
 
 Bài 4: 
 - Flutter có các widget, widget là đơn vị thành phần của một chương trình. 
@@ -25,35 +25,42 @@ Bài 6:
     + State maintenance widgets: Các widget quản lý state
     + Platform independent / basic widgets: Các widget cơ bản độc lập với nền tảng sử dụng 
     Ví dụ load image: 
+    ![image](https://user-images.githubusercontent.com/62579415/156557733-09d513f1-aeda-48a9-9379-d18681711e1a.png)
+
 Bài 7: Layout
       Layout trong Flutter chia làm 2 loại chính: 
         + Single Child Widget: có 1 widget con
         + Multiple CHild Widget: có nhiều widget con
   Ví dụ sử dụng layout: 
+  ![image](https://user-images.githubusercontent.com/62579415/156557803-be31c200-b936-4c68-84d7-4160a62a8628.png)
+
 Bài 8: Gesture
       Gesture trong Flutter là widget giúp xử lý sự kiện như nhấn, kéo, trượt,...
       Ví dụ :
-          
+   ![image](https://user-images.githubusercontent.com/62579415/156557860-518656be-765c-4a57-b0c5-d2e30e140ab3.png)
+
 Bài 9: State
     State trong Flutter quản lý trạng thái của ứng dụng. State chua làm 2 loại: ngắn hạn và dài hạn
 Bài 10:  Stateful widget
     StatefulWidget là class cha của khá nhiều class con dùng để duy trì trạng thái của ứng dụng.
 Ứng dụng mẫu từ tài liệu: khi chạy cần chạy lệnh sau trong terminal : flutter run --no-sound-null-safety
+    ![image](https://user-images.githubusercontent.com/62579415/156557889-188986f1-e63d-4b7d-a1c7-92672dee5965.png)
 
     
 Bài 11: ScopedModel trong Flutter
     Flutter hỗ trợ ScopedModel trong việc quản lý trạng thái ứng dụng. Package gồm 3 class chính:
 Model- đóng gói trạng thái của ứng dụng. ScopedModel - widget chuyển đổi dữ liệu từ widget cha xuống widget con khi model cập nhật
 . ScopedModelDescendant- widget giúp lấy dữ liệu từ lớp cha khi dât model thây đổi
-Ví dụ từ tài liệu: 
 
 Bài 12: Navigator và Routing
 Flutter cung cấp cho chúng ta lớp routing cơ bản là MaterialPageRoute cùng với hai phương thức Navigator.push() và Navigator.pop()
 Ứng dụng flutter mẫu trong tài liệu: bấm vào hình ảnh để chuyển sang mànn hình chi tiết:
+    ![image](https://user-images.githubusercontent.com/62579415/156557946-4dabf717-e879-420d-9d79-10ddf4d7a671.png)
 
 Bài 13: Animation
 Flutter animation dựa trên các đối tượng animation.
 Ứng dụng mẫu trong tài liệu: 
+![image](https://user-images.githubusercontent.com/62579415/156557985-417dded1-c823-472e-8784-485793a016b0.png)
 
 
 #############################
