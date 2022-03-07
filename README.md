@@ -73,11 +73,13 @@ Channel, nhận thông báo và xử lý các hàm cần thiết và cuối cùn
 Message Channel.
 
 Ứng dụng mẫu trong tài liệu: ![img.png](img.png)
-
+![img_1.png](img_1.png)
 #############################
-
+Bài 15: Code với Specific IOS
+Truy cập nền tảng IOS cũng giống như Android nhưng sử dụng Objective-C hoặc Swift
+Ứng dụng mẫu:
+![img_2.png](img_2.png)
 Bài 16: Package
-
 Dart tổ chức và chia sẻ các chức năng thông qua package. Dart package cũng giống như Dart Application ngoại trừ Dart
 Package không truy cập vào các điểm chính của ứng dụng.
 Các kiểu package: Flutter package, Dart package, Flutter plugin.
