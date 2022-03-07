@@ -72,7 +72,7 @@ Message Channel. Client sẽ gửi thông báo đến Host thông qua Message Ch
 Channel, nhận thông báo và xử lý các hàm cần thiết và cuối cùng trả kết quả về cho Clients thông qua
 Message Channel.
 
-Do code cũ bị lỗi nên em không chạy được.
+Ứng dụng mẫu trong tài liệu: ![img.png](img.png)
 
 #############################
 

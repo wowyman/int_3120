@@ -1,4 +1,5 @@
-package com.example.hello_app;
+package com.example.bai14;
+
 import androidx.annotation.Nullable;
 import io.flutter.embedding.android.FlutterActivity;
 
@@ -13,24 +14,23 @@ import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugins.GeneratedPluginRegistrant;
 
 public class MainActivity extends FlutterActivity {
-    private static final String CHANNEL = "com.duy.lesson14";
-
+    private static final String CHANNEL = "flutterapp.tutorialspoint.com/browser";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         GeneratedPluginRegistrant.registerWith(new FlutterEngine(this));
         new MethodChannel(getFlutterEngine().getDartExecutor().getBinaryMessenger(), CHANNEL).setMethodCallHandler(
-        new MethodChannel.MethodCallHandler() {
-            @Override
-            public void onMethodCall(MethodCall call, Result result) {
-                String url = call.argument("url");
-                if (call.method.equals("openBrowser")) {
-                    openBrowser(call, result, url);
-                } else {
-                    result.notImplemented();
+                new MethodChannel.MethodCallHandler() {
+                    @Override
+                    public void onMethodCall(MethodCall call, Result result) {
+                        String url = call.argument("url");
+                        if (call.method.equals("openBrowser")) {
+                            openBrowser(call, result, url);
+                        } else {
+                            result.notImplemented();
+                        }
+                    }
                 }
-            }
-        }
         );
     }
 
