@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739693824554",
+    "project_id": "bai18-eb300",
+    "storage_bucket": "bai18-eb300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739693824554:android:e82422b5c31f6a306dd153",
+        "android_client_info": {
+          "package_name": "com.tutorialspoint.flutterapp.product_firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739693824554-bk2n7pjaisfndai4s7gnc015qucd3jr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKYDE6OFJ-tMDVlDN-G7yxsTMS9cCUNhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739693824554-bk2n7pjaisfndai4s7gnc015qucd3jr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

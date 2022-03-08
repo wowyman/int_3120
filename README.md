@@ -92,3 +92,16 @@ di động dựa trên REST.
 
 Ứng dụng mẫu: chạy bằng lệnh : flutter run --no-sound-null-safety
 ![img_3.png](img_3.png)
+Bài 18: CSDL
+Flutter cung cấp nhiều gói nâng cao để làm việc với cơ sở dữ liệu. Các gói quan trọng nhất là
+    + sqflite - Được sử dụng để truy cập và thao tác với cơ sở dữ liệu SQLite
+    + firebase_database - Được sử dụng để truy cập và thao tác với cơ sở dữ liệu NoSQL được lưu trữ trên đám mây từ Google.
+
+![img_4.png](img_4.png)
+
+
+
+Bài 19: Internationalization
+Ngày nay, các ứng dụng di động được sử dụng bởi khách hàng từ các quốc gia khác nhau và do đó, các ứng dụng được yêu cầu hiển
+thị nội dung bằng các ngôn ngữ khác nhau. Việc cho phép ứng dụng hoạt động bằng nhiều ngôn ngữ được gọi là Internationalization (Chuyển đổi ngôn ngữ).
+![img_5.png](img_5.png)
