@@ -79,10 +79,16 @@ Bài 15: Code với Specific IOS
 Truy cập nền tảng IOS cũng giống như Android nhưng sử dụng Objective-C hoặc Swift
 Ứng dụng mẫu:
 ![img_2.png](img_2.png)
+
 Bài 16: Package
 Dart tổ chức và chia sẻ các chức năng thông qua package. Dart package cũng giống như Dart Application ngoại trừ Dart
 Package không truy cập vào các điểm chính của ứng dụng.
 Các kiểu package: Flutter package, Dart package, Flutter plugin.
+#############################
+Bài 17: Truy cập API REST
+Flutter cung cấp gói http để tiêu thụ tài nguyên HTTP. http là một thư viện dựa trên Tương lai và sử dụng các 
+tính năng await và async. Nó cung cấp nhiều phương pháp cấp cao và đơn giản hóa việc phát triển các ứng dụng 
+di động dựa trên REST.
 
-
-
+Ứng dụng mẫu: chạy bằng lệnh : flutter run --no-sound-null-safety
+![img_3.png](img_3.png)

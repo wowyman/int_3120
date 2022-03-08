@@ -1,4 +1,4 @@
-name: hello_app
+name: bai17
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.16.1 <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -29,9 +29,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  scoped_model: ^1.0.2
-  english_words: ^3.1.5
   http: ^0.12.0+2
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
@@ -60,7 +59,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/hou-china-0830-2.jpg
     - assets/iphone.jpg
     - assets/samsung.jpg
   #   - images/a_dot_burr.jpeg
