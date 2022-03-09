@@ -81,11 +81,13 @@ Truy cập nền tảng IOS cũng giống như Android nhưng sử dụng Object
 ![img_2.png](img_2.png)
 
 Bài 16: Package
+
 Dart tổ chức và chia sẻ các chức năng thông qua package. Dart package cũng giống như Dart Application ngoại trừ Dart
 Package không truy cập vào các điểm chính của ứng dụng.
 Các kiểu package: Flutter package, Dart package, Flutter plugin.
 #############################
 Bài 17: Truy cập API REST
+
 Flutter cung cấp gói http để tiêu thụ tài nguyên HTTP. http là một thư viện dựa trên Tương lai và sử dụng các 
 tính năng await và async. Nó cung cấp nhiều phương pháp cấp cao và đơn giản hóa việc phát triển các ứng dụng 
 di động dựa trên REST.
@@ -93,6 +95,7 @@ di động dựa trên REST.
 Ứng dụng mẫu: chạy bằng lệnh : flutter run --no-sound-null-safety
 ![img_3.png](img_3.png)
 Bài 18: CSDL
+
 Flutter cung cấp nhiều gói nâng cao để làm việc với cơ sở dữ liệu. Các gói quan trọng nhất là
     + sqflite - Được sử dụng để truy cập và thao tác với cơ sở dữ liệu SQLite
     + firebase_database - Được sử dụng để truy cập và thao tác với cơ sở dữ liệu NoSQL được lưu trữ trên đám mây từ Google.
@@ -102,6 +105,7 @@ Flutter cung cấp nhiều gói nâng cao để làm việc với cơ sở dữ 
 
 
 Bài 19: Internationalization
+
 Ngày nay, các ứng dụng di động được sử dụng bởi khách hàng từ các quốc gia khác nhau và do đó, các ứng dụng được yêu cầu hiển
 thị nội dung bằng các ngôn ngữ khác nhau. Việc cho phép ứng dụng hoạt động bằng nhiều ngôn ngữ được gọi là Internationalization (Chuyển đổi ngôn ngữ).
 ![img_5.png](img_5.png)
