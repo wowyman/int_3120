@@ -144,3 +144,10 @@ Cài đặt DevTools: flutter packages pub global activate devtools
 Chạy máy chủ: flutter packages pub global run devtools
 Flutter Inspector: Có thể mở bằng lệnh : flutter run --track-widget-creation
 ![img_7.png](img_7.png)
+
+Bài 23: Viết các ứng dụng nâng cao
+
+![img_8.png](img_8.png)
+
+![img_9.png](img_9.png)
+
