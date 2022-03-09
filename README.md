@@ -109,3 +109,38 @@ Bài 19: Internationalization
 Ngày nay, các ứng dụng di động được sử dụng bởi khách hàng từ các quốc gia khác nhau và do đó, các ứng dụng được yêu cầu hiển
 thị nội dung bằng các ngôn ngữ khác nhau. Việc cho phép ứng dụng hoạt động bằng nhiều ngôn ngữ được gọi là Internationalization (Chuyển đổi ngôn ngữ).
 ![img_5.png](img_5.png)
+
+Bài 20: Testing
+
+Kiểm thử là giai đoạn rất quan trọng trong vòng đời phát triển của một ứng dụng. Nó đảm bảo rằng ứng dụng có chất lượng cao. Kiểm tra yêu cầu lập kế 
+hoạch và thực hiện cẩn thận. Đây cũng là giai đoạn phát triển mất nhiều thời gian nhất.
+Ngôn ngữ Dart và khung công tác Flutter cung cấp hỗ trợ rộng rãi cho việc kiểm tra tự động một ứng dụng.
+
+Ứng dụng mẫu: 
+
+Bài 21: Triển khai
+Android:
+    Thay đổi tên ứng dụng bằng cách truy cập vào lệnh android:label trong file /android/app/src/main/AndroidManifest.xml
+    Thay đổi icon của ứng dụng bằng android:icon trong file manifest
+    Lệnh xuất file .apk: flutter build apk
+    Lệnh cài file APK trực tiếp trên thiết bị di động: flutter install
+iOS:
+    Cập nhật tên Display trong phần cài đặt project của Xcode để đặt tên ứng dụng
+    Cập nhật Bundle Identifier trong cài đặt của project Xcode để đặt bundle id
+    Thêm icon mới
+    Lệnh xuất cho iOS: flutter build ios
+
+
+Bài 22: Công cụ phát triển
+
+Dart DevTools: 
+    Có thể sử dụng IDE để viết mã và cài đặt plugin. Đây là một bộ lập trình dựa trên web
+hỗ trợ cả Android và IOS. Nó dựa trên chế độ xem dòng thời gian để các nhà phát triển có 
+thể dễ dàng phân tích các ứng dụng của họ.
+
+Cài đặt DevTools: flutter packages pub global activate devtools
+![img_6.png](img_6.png)
+
+Chạy máy chủ: flutter packages pub global run devtools
+Flutter Inspector: Có thể mở bằng lệnh : flutter run --track-widget-creation
+![img_7.png](img_7.png)
